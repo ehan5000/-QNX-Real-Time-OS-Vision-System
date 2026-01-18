@@ -1,0 +1,64 @@
+# --------------------
+# Build artifacts
+# --------------------
+build/
+out/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.elf
+*.map
+
+# --------------------
+# QNX-specific
+# --------------------
+*.sym
+*.pinfo
+*.tmp
+*.qnx
+nto*
+*.core
+
+# --------------------
+# Logs & runtime output
+# --------------------
+*.log
+*.trace
+
+# --------------------
+# Editor / IDE
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------
+# OS junk
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Python (if you use it for tooling)
+# --------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --------------------
+# CMake
+# --------------------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# --------------------
+# Temporary / backup files
+# --------------------
+*~
+*.bak
